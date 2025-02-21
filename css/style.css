@@ -1,0 +1,219 @@
+/* open sans font */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Young+Serif&display=swap');
+
+body {
+    background-color: #f6f6fe;
+}
+
+.main_tag {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: min(100%, 738px);
+    box-shadow: 0 10px 20px #3e3a3a;
+    border-radius: 30px;
+
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #603EFC;
+    width: 50%;
+    padding: 40px 75px;
+    border-radius: 30px 0 0 30px;
+}
+
+.section1_heading {
+
+    font-family: "Hanken Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    color: hsl(0, 0%, 100%);
+    text-wrap: nowrap;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: radial-gradient(circle at top, #1125D6, #322BEA, #FEFEFE);
+    border-radius: 50%;
+    margin-block: 27px;
+    text-align: center;
+}
+
+.numbers {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* for section1 texts */
+
+.same_font {
+    font-family: "Hanken Grotesk", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+}
+
+.score {
+    font-weight: 700;
+    font-size: 78px;
+}
+
+.highest_score {
+    font-family: "open sans", serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/* bottom text */
+
+.bottom_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 264px;
+    row-gap: 10px;
+}
+
+.bottom_heading {
+    font-weight: 700;
+    font-size: 32px;
+
+}
+
+.bottom_p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* section 2 */
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 50%;
+    border-radius: 0 30px 30px 0;
+    padding: 40px;
+}
+
+.h2_heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: #000000;
+
+}
+
+.section2-ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    margin-block: 30px 39px;
+    transition: .4s ease;
+}
+
+.section2-ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 18px;
+    transition: .4s;
+}
+
+.reaction {
+    display: flex;
+    align-items: center;
+    background-color: #ffeeee;
+    color: #ff6868;
+}
+
+.reaction:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 4px -2px #C63F39;
+
+}
+
+.memory {
+    background-color: #fff8e9;
+    color: #ffb21e;
+}
+
+.memory:hover {
+
+    transform: translateY(-5px);
+    box-shadow: 0 7px 4px -2px#F39C12;
+}
+
+.verbal {
+    background-color: #e6f9f4;
+    color: #00bb8f;
+}
+
+.verbal:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 4px -2px #1A5252;
+}
+
+.visual {
+    background-color: #e8eafb;
+    color: #1125d6;
+}
+
+.visual:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 7px 4px -2px #303F9F;
+}
+
+.li_section {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 11px;
+}
+
+.li_text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px
+}
+
+.li_numbers {
+    font-family: "open sans", serif;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.section2_but {
+    width: 287px;
+    height: 57px;
+    border-radius: 30px;
+    border: none;
+    background-color: #303b59;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.section2_but:hover {
+    background-color: #352de8;
+    box-shadow: 0 11px 4px -2px rgb(59, 56, 56);
+    transform: translateY(-7px);
+}
