@@ -68,12 +68,14 @@ body {
 .score {
     font-weight: 700;
     font-size: 78px;
+    line-height: 117px;
 }
 
 .highest_score {
     font-family: "open sans", serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 24px;
 }
 
 /* bottom text */
@@ -90,7 +92,7 @@ body {
 .bottom_heading {
     font-weight: 700;
     font-size: 32px;
-
+    line-height: 48px;
 }
 
 .bottom_p {
@@ -198,10 +200,11 @@ body {
     color: #000000;
     font-size: 18px;
     font-weight: 500;
+    text-wrap: nowrap;
 }
 
 .section2_but {
-    width: 287px;
+    width: 100%;
     height: 57px;
     border-radius: 30px;
     border: none;
